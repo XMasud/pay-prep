@@ -12,6 +12,12 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+
+jwt:
+  secret: 6dT2v6nrxKDAsH+e7Eyhq5q8OccJ92Ha/VF8BsPBujXRx4WOYb6LKc9CajD4/upIn4mciBrc97PbUJUCiNGRLw==
+  expirationMs: 3600000
 
 server:
   port: 4001
